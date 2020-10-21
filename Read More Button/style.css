@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(61, 61, 61);
+  color: rgb(245, 245, 245);
+}
+
+.text {
+  font-size: 24px;
+}
+
+.show-more {
+  display: none;
+}
+
+.read-more-btn {
+  padding: 15px 60px;
+  background-color: rgb(245, 245, 245);
+  color: rgb(18, 18, 18);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.text.show-all .show-more {
+  display: inline;
+}
+.text.show-all .dots {
+  display: none;
+}
