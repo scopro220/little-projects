@@ -38,6 +38,7 @@ section {
   box-shadow: 0 0 61px 7px #5e849c40;
   padding: 50px 20px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .header {
@@ -51,6 +52,7 @@ section {
   font-size: 40px;
   font-weight: 900;
   letter-spacing: -2px;
+  cursor: pointer;
 }
 
 form {
@@ -120,6 +122,19 @@ form ion-icon {
 
 .item:hover h3 {
   bottom: 0;
+}
+
+.load-more {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: black;
+  padding: 20px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 @media only screen and (min-width: 900px) {
